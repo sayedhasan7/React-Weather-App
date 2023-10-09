@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (max-width:1075px){
+    .maincontainer{
+        flex-direction: column !important;
+        gap: 20px;
+    }
+    .first-column{
+        width: 100%;
+    }
+    .second-column{
+        width: 100%;
+        margin: 0;
+    }
+  
+}
+
+@media screen and (max-width:350px) {
+    .x-small,.first-first{
+        flex-direction: column;
+    }
+    .x-small>.sub-div,.first-first>div{
+        width: 100%;
+    }
+    .first-first>div>img{
+        margin: auto;
+    }
+    .first-first>div>h1,.first-first>div>p{
+        text-align: center;
+    }
+
+    
+}
+@media screen and (max-width:530px) {
+    .table{
+       display: block;
+    }
+    .table-row{
+        border-bottom: 2px solid blue;
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column;
+        width: 100% !important;
+
+    }
+    .mob-container{
+        flex-direction: column !important;
+    }
+    .aircontainer{
+        flex-direction: column;
+    }
+    .mob-container>.container{
+     width: 100%;
+     border: none;
+     margin-top: 20px;
+     border-bottom: 2px solid rgba(0, 47, 255, 0.678);
+    }
+    .mob-margin{
+        margin: auto;
+    }
+    .mob-text{
+        text-align: center ;
+    }
+}
+
+.skeleton{
+    margin: 2px;
+}
