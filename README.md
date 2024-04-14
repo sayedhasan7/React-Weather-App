@@ -11,7 +11,7 @@ Welcome to my Weather App project, built entirely from scratch using React and s
 
 ## Demo
 
-You can see the app in action here: [Weather App Demo](https://652416b8f5bcd20bed3f29ee--delightful-griffin-7639f9.netlify.app)
+You can see the app in action here: [Weather App Demo]([(https://weather72.netlify.app/)])
 
 ## Usage
 
