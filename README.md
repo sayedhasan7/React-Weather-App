@@ -4,7 +4,7 @@ Welcome to my Weather App project, built entirely from scratch using React and s
 
 ## Features
 
-- Check current weather conditions for a city.
+- Check current weather conditions for a states and country Only.
 - View a 3-day weather forecast.
 - Get details on temperature, humidity, and more.
 - Easily switch between cities to check the weather.
